@@ -1,0 +1,11 @@
+feature_row:
+  - title: "PINet lightweight Lane Detection"
+    excerpt: "End-to-end framework for predicting and clustering traffic lanes."
+    url: "https://pinet.cyanru.com"
+    btn_label: "Live Demo"
+    btn_class: "btn--primary"
+  - title: "Semantic Segmentation on Roads"
+    excerpt: "Improving road segmentation using GCN, PSPNet, and DUC-HDC architectures."
+    url: "https://drive.google.com/drive/folders/1JsmofsAk6V2pRyq1X594T6nMnk9MqUtF"
+    btn_label: "Google Drive Demo"
+    btn_class: "btn--primary"
