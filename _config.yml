@@ -11,12 +11,6 @@
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -52,7 +46,7 @@ author:
       icon: "fab fa-fw fa-github"
 
 collections:
-  education:
+  experiences:
     output: true
     permalink: /:collection/:path/
   projects:
@@ -71,7 +65,7 @@ defaults:
   # _education
   - scope:
       path: ""
-      type: education
+      type: experiences
     values:
       layout: single
       author_profile: true
