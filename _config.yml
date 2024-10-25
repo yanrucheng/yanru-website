@@ -18,28 +18,77 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Cheng Yanru's Personal Website"
-description: "Computer Vision | Deep Learning | Algorithm Engineering"
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site settings
+title: "Data Science by Cheng Yanru"
+description: &description "AI Engineer | Data Analyst"
+name: &name "Cheng Yanru"
 
 # Base settings
 url: "https://cyanru.com"  # Change to your domain or leave empty
 baseurl: ""  # Leave this blank unless the site is hosted in a subdirectory
-twitter_username: "your_twitter"
+# twitter_username: "your_twitter"
 github_username: "yanrucheng"
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-include-cache
-  - jekyll-feed
-
+# Site Author
 author:
-  name: "Cheng Yanru"
-  avatar: "/assets/images/avatar.png" # Add your own image in assets/images
-  bio: "Computer Vision | Deep Learning | Algorithm Engineering"
-  location: "Shenzhen, China"
+  name: *name
+  avatar: "/assets/images/avatar.jpg" # Add your own image in assets/images
+  bio: *description
+  location: "Beijing, CN"
   email: "yanru@cyanru.com"
+  links:
+    - title: "Projects"
+      url: "/projects"
+    - title: "Education"
+      url: "/education"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/cheng-yanru/"
+      icon: "fab fa-fw fa-linkedin"
+    - label: "GitHub"
+      url: "https://github.com/yanrucheng"
+      icon: "fab fa-fw fa-github"
+
+collections:
+  education:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _education
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+footer:
   links:
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/cheng-yanru/"
@@ -49,9 +98,15 @@ author:
       icon: "fab fa-github"
 
 
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+
 include:
+  - _pages
   - _includes/footer.html
-  - _includes/header.html
 
 
 
