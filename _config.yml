@@ -25,7 +25,7 @@ icon: &logo /assets/images/favicon.png
 
 # Base settings
 url: "https://cyanru.com"  # Change to your domain or leave empty
-baseurl: "yanru-website"  # Leave this blank unless the site is hosted in a subdirectory
+baseurl: "/yanru-website"  # Leave this blank unless the site is hosted in a subdirectory
 # twitter_username: "your_twitter"
 github_username: "yanrucheng"
 
