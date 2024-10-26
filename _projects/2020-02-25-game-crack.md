@@ -1,10 +1,11 @@
 ---
 title: "Crash Calculator"
+date:   2020-02-25 23:38:48 +0800
 excerpt: "A robust tool for calculating crash data metrics, providing quick insights and valuable analytics."
 header:
-  image: /assets/images/projects/20Feb-game-crack/calculator_banner_banner_resized.jpeg
+  image: /assets/images/projects/2020-02-25-game-crack/calculator_banner_banner_resized.jpeg
   caption: "Crash Calculator Project Overview"
-  teaser: /assets/images/projects/20Feb-game-crack/calculator_thumb-thick_cropped.jpeg
+  teaser: /assets/images/projects/2020-02-25-game-crack/calculator_thumb-thick_cropped.jpeg
 sidebar:
   - title: "Role"
     text: "Developer and Project Lead"
@@ -13,17 +14,17 @@ sidebar:
   - title: "Highlights"
     text: "Delivered a scalable tool that supports detailed crash data analysis and rapid calculation of safety metrics."
 gallery:
-  - url: /assets/images/projects/20Feb-game-crack/Q141_answer_landscape_resized.png
-    image_path: /assets/images/projects/20Feb-game-crack/Q141_answer_landscape_resized.png
+  - url: /assets/images/projects/2020-02-25-game-crack/Q141_answer_landscape_resized.png
+    image_path: /assets/images/projects/2020-02-25-game-crack/Q141_answer_landscape_resized.png
     alt: "Answer Landscape for Q141 Analysis"
-  - url: /assets/images/projects/20Feb-game-crack/Q141_landscape_resized.gif
-    image_path: /assets/images/projects/20Feb-game-crack/Q141_landscape_resized.gif
+  - url: /assets/images/projects/2020-02-25-game-crack/Q141_landscape_resized.gif
+    image_path: /assets/images/projects/2020-02-25-game-crack/Q141_landscape_resized.gif
     alt: "Dynamic Visualization of Q141 Data"
-  - url: /assets/images/projects/20Feb-game-crack/Q155_answer_landscape_resized.png
-    image_path: /assets/images/projects/20Feb-game-crack/Q155_answer_landscape_resized.png
+  - url: /assets/images/projects/2020-02-25-game-crack/Q155_answer_landscape_resized.png
+    image_path: /assets/images/projects/2020-02-25-game-crack/Q155_answer_landscape_resized.png
     alt: "Answer Landscape for Q155 Analysis"
-  - url: /assets/images/projects/20Feb-game-crack/Q155_landscape_resized.gif
-    image_path: /assets/images/projects/20Feb-game-crack/Q155_landscape_resized.gif
+  - url: /assets/images/projects/2020-02-25-game-crack/Q155_landscape_resized.gif
+    image_path: /assets/images/projects/2020-02-25-game-crack/Q155_landscape_resized.gif
     alt: "Dynamic Visualization of Q155 Data"
 ---
 
