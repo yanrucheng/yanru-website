@@ -3,7 +3,6 @@ title: "Semantic Segmentation on Roads"
 date:   2019-04-17 23:38:48 +0800
 excerpt: "Exploring semantic segmentation techniques for road scenes using advanced DNN architectures, including GCN, PSPNet, and DUC-HDC."
 header:
-  # image: /assets/images/projects/2018-04-17-semantic-seg/danet_landscape_resized.png
   caption: "Semantic Segmentation on Roads - Visualizing Road Scene Segmentation"
   teaser: /assets/images/projects/2018-04-17-semantic-seg/semanticseg_thumb_resized.png
 sidebar:
@@ -13,10 +12,11 @@ sidebar:
     text: "Prof. Rynson W. H. Lau"
   - title: "Technologies"
     text: "Deep Learning, Semantic Segmentation, Encoder-Decoder DNN"
-gallery:
-  - url: /assets/images/projects/2018-04-17-semantic-seg/danet_landscape_resized.png
-    image_path: /assets/images/projects/2018-04-17-semantic-seg/danet_landscape_resized.png
+feature_row:
+  - image_path: /assets/images/projects/2018-04-17-semantic-seg/danet_landscape_resized.png
     alt: "Road Scene Segmentation Architecture"
+    title: "Road Scene Segmentation"
+    excerpt: "Architecture used for accurate road scene analysis and segmentation."
 ---
 
 ## Project Overview
@@ -34,19 +34,10 @@ Project achievements include:
 - Enhanced accuracy in road lane and vehicle segmentation through DNN optimizations.
 - Insights into architecture trade-offs, supporting further research in semantic segmentation.
 
-## Gallery
+## Visual Insights
 
-<div class="gallery">
-  {% for image in page.gallery %}
-  <figure>
-    <a href="{{ image.url }}"><img src="{{ image.image_path }}" alt="{{ image.alt }}"></a>
-    <figcaption>{{ image.alt }}</figcaption>
-  </figure>
-  {% endfor %}
-</div>
+{% include feature_row id="feature_row" %}
 
 ## Additional Resources
 
-For more information, view the project's [GitHub repository](#).
-
-<button type="button" onclick="window.location.href='#';">View Project</button>
+For more information, view the project's [GitHub repository](#){: .btn .btn--primary}

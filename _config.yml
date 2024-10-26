@@ -19,6 +19,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 title: "Data Science by Cheng Yanru"
 description: &description "AI Engineer | Data Analyst"
 name: &name "Cheng Yanru"
+teaser: /assets/images/default-teaser.jpg
+icon: &logo /assets/images/favicon.png
+# logo: *logo
 
 # Base settings
 url: "https://cyanru.com"  # Change to your domain or leave empty
@@ -29,10 +32,12 @@ github_username: "yanrucheng"
 # Site Author
 author:
   name: *name
-  avatar: "/assets/images/avatar.jpg" # Add your own image in assets/images
+  avatar: /assets/images/avatar.jpg # Add your own image in assets/images
   bio: *description
   location: "Beijing, CN"
   email: "yanru@cyanru.com"
+  tel: "+86 19867752324"
+  wechat: cheng-yanru
   links:
     - title: "Projects"
       url: "/projects"

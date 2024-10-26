@@ -12,23 +12,20 @@ sidebar:
     text: "Data Scientist, Competitor"
   - title: "Highlights"
     text: "Top 5% ranking, Lightweight model, Satellite image analysis"
-gallery:
-  - url: /assets/images/projects/2017-10-31-iceberg/iceberg-signal_landscape_resized.png
-    image_path: /assets/images/projects/2017-10-31-iceberg/iceberg-signal_landscape_resized.png
+feature_row:
+  - image_path: /assets/images/projects/2017-10-31-iceberg/iceberg-signal_landscape_resized.png
     alt: "Iceberg Signal"
-  - url: /assets/images/projects/2017-10-31-iceberg/ship-signal_landscape_resized.png
-    image_path: /assets/images/projects/2017-10-31-iceberg/ship-signal_landscape_resized.png
+    title: "Iceberg Signal"
+    excerpt: "Radar imagery showing the unique signal of an iceberg, essential for accurate classification."
+  - image_path: /assets/images/projects/2017-10-31-iceberg/ship-signal_landscape_resized.png
     alt: "Ship Signal"
-  - url: /assets/images/projects/2017-10-31-iceberg/iceberg_landscape_resized.jpg
-    image_path: /assets/images/projects/2017-10-31-iceberg/iceberg_landscape_resized.jpg
-    alt: "Iceberg in Satellite Imagery"
+    title: "Ship Signal"
+    excerpt: "Radar signal of a ship, highlighting differentiating features from icebergs."
 ---
 
 ## Project Overview
 
-The **Kaggle Statoil/C-CORE Iceberg Classifier Challenge** aimed to create a solution that distinguishes between **icebergs** and **ships** in satellite radar images. With significant importance for maritime navigation and environmental monitoring, accurate classification of these objects helps identify potential obstacles and aids in the study of Arctic and Antarctic regions.
-
-![Iceberg Signal](/assets/images/projects/2017-10-31-iceberg/iceberg-signal_landscape_resized.png)
+The **Kaggle Statoil/C-CORE Iceberg Classifier Challenge** aimed to create a solution that distinguishes between **icebergs** and **ships** in satellite radar images. This challenge is critical for maritime navigation and environmental monitoring, helping to identify potential obstacles and contributing to Arctic and Antarctic studies.
 
 ### Key Achievements
 
@@ -36,18 +33,12 @@ The **Kaggle Statoil/C-CORE Iceberg Classifier Challenge** aimed to create a sol
 - **Optimized for Deployment**: Achieved a highly compact model under **0.5MB**, ideal for deployment in resource-limited environments.
 - **Satellite Imagery Analysis**: Tackled the challenges of interpreting radar images, where distinguishing features are often subtle.
 
-![Ship Signal](/assets/images/projects/2017-10-31-iceberg/ship-signal_landscape_resized.png)
-
 ## Visual Insights
 
 The satellite images revealed unique patterns that differentiate icebergs from ships. By focusing on these patterns, our classifier was able to interpret radar signal reflections and effectively categorize the objects.
 
-{% include gallery id="iceberg-challenge-gallery" caption="Satellite Imagery: Icebergs and Ships" %}
+{% include feature_row id="feature_row" %}
 
-![Iceberg in Satellite Imagery](/assets/images/projects/2017-10-31-iceberg/iceberg_landscape_resized.jpg)
+## Additional Resources
 
----
-
-<ul class="actions">
-  <li><a href="https://www.kaggle.com/c/statoil-iceberg-classifier-challenge" class="button" target="_blank">Learn More on Kaggle</a></li>
-</ul>
+For more details on the Kaggle challenge, visit the [Kaggle competition page](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge){: .btn .btn--primary}
