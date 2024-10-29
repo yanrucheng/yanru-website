@@ -1,0 +1,23 @@
+{% if author.email_to_copy %}
+<li>
+    <a href="javascript:void(0);" onclick="copyToClipboard('{{ author.email_to_copy }}', this)" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+        <i class="fa-regular fa-fw fa-envelope" aria-hidden="true"></i><span class="label"> {{ author.email_to_copy }}</span>
+    </a>
+</li>
+{% endif %}
+
+{% if author.wechat %}
+<li>
+    <a href="javascript:void(0);" onclick="copyToClipboard('{{ author.wechat }}', this)" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+        <i class="fab fa-fw fa-weixin" aria-hidden="true"></i><span class="label"> {{ author.wechat }}</span>
+    </a>
+</li>
+{% endif %}
+ 
+{% if author.tel %}
+<li>
+    <a href="javascript:void(0);" onclick="copyToClipboard('{{ author.tel }}', this)" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+        <i class="fa-solid fa-fw fa-phone" aria-hidden="true"></i><span class="label"> {{ author.tel }}</span>
+    </a>
+</li>
+{% endif %}

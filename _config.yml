@@ -35,8 +35,8 @@ author:
   avatar: /assets/images/avatar.jpg # Add your own image in assets/images
   bio: *description
   location: "Beijing, CN"
-  email: "yanru@cyanru.com"
-  tel: "+86 19867752324"
+  email_to_copy: "yanru@cyanru.com"
+  # tel: "+86 19867752324"
   wechat: cheng-yanru
   links:
     - title: "Projects"
